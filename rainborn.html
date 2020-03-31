@@ -33,7 +33,12 @@
             overflow: hidden;
         }
 
+        /* .num1 div {
+            display: none;
+        } */
+
         .num2 {
+            display: none;
             height: 200px;
             width: 400px;
             background-color: #ff1a0d;
@@ -41,6 +46,7 @@
         }
 
         .num3 {
+            display: none;
             width: 380px;
             margin: 10px;
             background-color: #ff9906;
@@ -48,6 +54,7 @@
         }
 
         .num4 {
+            display: none;
             background-color: #fdf701;
             width: 360px;
             margin: 10px;
@@ -55,6 +62,7 @@
         }
 
         .num5 {
+            display: none;
             background-color: #00a3ee;
             width: 340px;
             margin: 10px;
@@ -62,12 +70,14 @@
         }
 
         .num6 {
+            display: none;
             background-color: #0012ba;
             width: 320px;
             margin: 10px;
         }
 
         .num7 {
+            display: none;
             background-color: #dd07c9;
             width: 300px;
             margin: 10px;
@@ -75,6 +85,7 @@
         }
 
         .num8 {
+            display: none;
             background-color: #9b0894;
             width: 280px;
             margin: 10px;
@@ -82,10 +93,11 @@
         }
 
         .num9 {
+            display: none;
             background-color: #ede4d3;
             width: 260px;
             margin: 10px;
-
+            padding: 60px;
         }
     </style>
 </head>
@@ -100,7 +112,7 @@
                             <div class="num6">
                                 <div class="num7">
                                     <div class="num8">
-                                        <div class="num9"></div>
+                                        <div class="num9">嘻嘻嘻</div>
                                     </div>
                                 </div>
                             </div>
@@ -111,7 +123,56 @@
             </div>
         </div>
     </div>
+    <script>
+        var haha = document.querySelector(".rainbow");
+        var num9 = document.querySelector(".num9");
+        var num8 = document.querySelector(".num8");
+        var num7 = document.querySelector(".num7");
+        var num6 = document.querySelector(".num6");
+        var num5 = document.querySelector(".num5");
+        var num4 = document.querySelector(".num4");
+        var num3 = document.querySelector(".num3");
+        var num2 = document.querySelector(".num2");
+        var num1 = document.querySelector(".num1");
+        haha.addEventListener("click", function () {
+            setTimeout(function () {
+                num2.style.display = "block ";
+            }, 1000)
+            setTimeout(function () {
+                num3.style.display = "block ";
+            }, 2000)
+            setTimeout(function () {
+                num4.style.display = "block ";
+            }, 3000)
+            setTimeout(function () {
+                num5.style.display = "block ";
+            }, 4000)
+            setTimeout(function () {
+                num6.style.display = "block ";
+            }, 5000)
+            setTimeout(function () {
 
+                num7.style.display = "block ";
+            }, 6000)
+            setTimeout(function () {
+
+                num8.style.display = "block ";
+            }, 7000)
+            setTimeout(function () {
+
+                num9.style.display = "block";
+            }, 8000);
+
+
+
+
+
+
+
+
+        })
+
+    </script>
 </body>
 
 </html>
